@@ -1,8 +1,9 @@
 #total represents the first two rabbits
-total=2
 #n represents generation
-n=1
 #twice the growth rate to count 100
+#print the result
+total=2
+n=1
 while total<=100:
         n=n+1
         total=2*total
