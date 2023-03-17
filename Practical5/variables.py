@@ -13,8 +13,10 @@ elif e<d:
 if e==d:
         print("same")
 #compare W and Z if ture
+#haining is further
 X=True
 Y=False
 W="X and Y"
 Z="X or Y"
-(W,Z)
+print(W,Z)
+#W is False,Z is Ture
