@@ -23,7 +23,7 @@ if e==d:
 X=True
 Y=False
 #W represents x and y,Z represents x or y 
-W="X" and "Y"
-Z="X" or "Y"
+W=X and Y
+Z=X or Y
 #Get result
 print(W,Z) 
