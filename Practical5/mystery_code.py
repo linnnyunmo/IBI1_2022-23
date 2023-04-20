@@ -1,6 +1,6 @@
 # What does this piece of code do?
 # Answer:what that means is that you print it ten times and then you find the largest number in the interval that you're given, which is the number that fits
-
+# Generate 10 random numbers. between 1 and 100 before printing the largest number
 # Import libraries
 # randint allows drawing a random number,
 # e.g. randint(1,5) draws a number between 1 and 5
