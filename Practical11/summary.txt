@@ -1,0 +1,10 @@
+Below are the scores and identical percentage I calculated. From the results, the similarity between humans and cats is the highest.
+Because the identical percentage and score between cats and humans are the highest. These results suggested that cats and humans are closely related evolutionarily
+and share a common ancestor. It is also possible that cats and humans have lived in similar environments for a long time, and the two species have begun to
+evolve similarly to adapt to the environment.
+The score between mouse and human is: 3579
+The score between mouse and cat is: 3592
+The score between cat and human is: 3717
+The percentage of identical amino acids between cat and human is: 85.21739130434783%
+The percentage of identical amino acids between cat and mouse is: 81.73913043478261%
+The percentage of identical amino acids between mouse and human is: 82.11180124223603%
