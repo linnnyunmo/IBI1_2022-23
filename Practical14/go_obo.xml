@@ -1,0 +1,2252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties/>
+<?xml version="1.0" encoding="UTF-8"?>
+<obo>
+<source_id>/share/godev/goterm/data/go/ontology/gene_ontology_edit.obo</source_id>
+<source_type>file</source_type>
+<source_fullpath>/share/godev/goterm/data/go/ontology/gene_ontology_edit.obo</source_fullpath>
+<source_path>gene_ontology_edit.obo</source_path>
+<source_md5>c2ea6e5177508f925fcb244fd58ae877</source_md5>
+<source_mtime>1537513812</source_mtime>
+<source_parsetime>1553703109</source_parsetime>
+<header>
+    <format-version>1.2</format-version>
+    <data-version>releases/2018-09-19</data-version>
+    <subsetdef>
+      <id>gocheck_do_not_annotate</id>
+      <name>Term not to be used for direct annotation</name>
+    </subsetdef>
+    <subsetdef>
+      <id>gocheck_do_not_manually_annotate</id>
+      <name>Term not to be used for direct manual annotation</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_agr</id>
+      <name>AGR slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_aspergillus</id>
+      <name>Aspergillus GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_candida</id>
+      <name>Candida GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_chembl</id>
+      <name>ChEMBL protein targets summary</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_generic</id>
+      <name>Generic GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_metagenomics</id>
+      <name>Metagenomics GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_mouse</id>
+      <name>Mouse GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_pir</id>
+      <name>PIR GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_plant</id>
+      <name>Plant GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_pombe</id>
+      <name>Fission yeast GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_synapse</id>
+      <name>synapse GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_yeast</id>
+      <name>Yeast GO slim</name>
+    </subsetdef>
+    <synonymtypedef>
+      <id>syngo_official_label</id>
+      <name>label approved by the SynGO project</name>
+    </synonymtypedef>
+    <synonymtypedef>
+      <id>systematic_synonym</id>
+      <name>Systematic synonym</name>
+      <scope>EXACT</scope>
+    </synonymtypedef>
+    <default-namespace>gene_ontology</default-namespace>
+    <remark>cvs version: use data-version</remark>
+    <remark>Includes Ontology(OntologyID(Anonymous-39)) [Axioms: 285 Logical Axioms: 285]</remark>
+    <remark>Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/go/never_in_taxon.owl&gt;))) [Axioms: 18 Logical Axioms: 0]</remark>
+    <ontology>go</ontology>
+  </header>
+  <term>
+    <id>GO:0000001</id>
+    <name>mitochondrion inheritance</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The distribution of mitochondria, including the mitochondrial genome, into daughter cells after mitosis or meiosis, mediated by interactions between mitochondria and the cytoskeleton.</defstr>
+      <dbxref>
+        <acc>mcc</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>10873824</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>11389764</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>mitochondrial inheritance</synonym_text>
+    </synonym>
+    <is_a>GO:0048308</is_a>
+    <is_a>GO:0048311</is_a>
+  </term>
+  <term>
+    <id>GO:0000002</id>
+    <name>mitochondrial genome maintenance</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The maintenance of the structure and integrity of the mitochondrial genome; includes replication and segregation of the mitochondrial chromosome.</defstr>
+      <dbxref>
+        <acc>ai</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>vw</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <is_a>GO:0007005</is_a>
+  </term>
+  <term>
+    <id>GO:0000003</id>
+    <name>reproduction</name>
+    <namespace>biological_process</namespace>
+    <alt_id>GO:0019952</alt_id>
+    <alt_id>GO:0050876</alt_id>
+    <def>
+      <defstr>The production of new individuals that contain some portion of genetic material inherited from one or more parent organisms.</defstr>
+      <dbxref>
+        <acc>go_curators</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>isa_complete</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <subset>goslim_agr</subset>
+    <subset>goslim_chembl</subset>
+    <subset>goslim_generic</subset>
+    <subset>goslim_pir</subset>
+    <subset>goslim_plant</subset>
+    <synonym scope="exact">
+      <synonym_text>reproductive physiological process</synonym_text>
+    </synonym>
+    <xref_analog>
+      <acc>Reproduction</acc>
+      <dbname>Wikipedia</dbname>
+    </xref_analog>
+    <is_a>GO:0008150</is_a>
+  </term>
+  <term>
+    <id>GO:0000005</id>
+    <name>obsolete ribosomal chaperone activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>OBSOLETE. Assists in the correct assembly of ribosomes or ribosomal subunits in vivo, but is not a component of the assembled ribosome when performing its normal biological function.</defstr>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>12150913</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+    </def>
+    <comment>This term was made obsolete because it refers to a class of gene products and a biological process rather than a molecular function.</comment>
+    <synonym scope="exact">
+      <synonym_text>ribosomal chaperone activity</synonym_text>
+    </synonym>
+    <is_obsolete>1</is_obsolete>
+    <consider>GO:0042254</consider>
+    <consider>GO:0044183</consider>
+    <consider>GO:0051082</consider>
+  </term>
+  <term>
+       <id>GO:0000006</id>
+    <name>high-affinity zinc transmembrane transporter activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Enables the transfer of zinc ions (Zn2+) from one side of a membrane to the other, probably powered by proton motive force. In high-affinity transport the transporter is able to bind the solute even if it is only present at very low concentrations.</defstr>
+      <dbxref>
+        <acc>2.A.5.1.1</acc>
+        <dbname>TC</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>high affinity zinc uptake transmembrane transporter activity</synonym_text>
+    </synonym>
+    <synonym scope="related">
+      <synonym_text>high-affinity zinc uptake transmembrane transporter activity</synonym_text>
+    </synonym>
+    <is_a>GO:0005385</is_a>
+  </term>
+  <term>
+    <id>GO:0000007</id>
+    <name>low-affinity zinc ion transmembrane transporter activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: Zn2+ = Zn2+, probably powered by proton motive force. In low-affinity transport the transporter is able to bind the solute only if it is present at very high concentrations.</defstr>
+      <dbxref>
+        <acc>mtg_transport</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0815340729</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <is_a>GO:0005385</is_a>
+  </term>
+  <term>
+    <id>GO:0000008</id>
+    <name>obsolete thioredoxin</name>
+    <namespace>molecular_function</namespace>
+    <alt_id>GO:0000013</alt_id>
+    <def>
+      <defstr>OBSOLETE. A small disulfide-containing redox protein that serves as a general protein disulfide oxidoreductase. Interacts with a broad range of proteins by a redox mechanism, based on the reversible oxidation of 2 cysteine thiol groups to a disulfide, accompanied by the transfer of 2 electrons and 2 protons. The net result is the covalent interconversion of a disulfide and a dithiol.</defstr>
+      <dbxref>
+        <acc>kd</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <comment>This term was made obsolete because it represents gene products.</comment>
+    <synonym scope="exact">
+      <synonym_text>thioredoxin</synonym_text>
+    </synonym>
+    <is_obsolete>1</is_obsolete>
+    <consider>GO:0003756</consider>
+    <consider>GO:0015036</consider>
+  </term>
+  <term>
+    <id>GO:0000009</id>
+    <name>alpha-1,6-mannosyltransferase activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Catalysis of the transfer of a mannose residue to an oligosaccharide, forming an alpha-(1-&gt;6) linkage.</defstr>
+      <dbxref>
+        <acc>mcc</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>2644248</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>1,6-alpha-mannosyltransferase activity</synonym_text>
+    </synonym>
+    <xref_analog>
+      <acc>2.4.1.232</acc>
+      <dbname>EC</dbname>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_22295</acc>
+      <dbname>Reactome</dbname>
+      <name>Addition of a third mannose to the N-glycan precursor by Alg2, Saccharomyces cerevisiae</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_22383</acc>
+      <dbname>Reactome</dbname>
+      <name>Addition of a third mannose to the N-glycan precursor by ALG2, Homo sapiens</name>
+    </xref_analog>
+    <is_a>GO:0000030</is_a>
+  </term>
+  <term>
+    <id>GO:0000010</id>
+    <name>trans-hexaprenyltranstransferase activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Catalysis of the reaction: all-trans-hexaprenyl diphosphate + isopentenyl diphosphate = all-trans-heptaprenyl diphosphate + diphosphate.</defstr>
+      <dbxref>
+        <acc>R05612</acc>
+        <dbname>KEGG</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>20836</acc>
+        <dbname>RHEA</dbname>
+      </dbxref>
+    </def>
+    <xref_analog>
+      <acc>R05612</acc>
+      <dbname>KEGG</dbname>
+    </xref_analog>
+    <xref_analog>
+      <acc>20836</acc>
+      <dbname>RHEA</dbname>
+    </xref_analog>
+    <is_a>GO:0016765</is_a>
+  </term>
+  <term>
+    <id>GO:0000011</id>
+    <name>vacuole inheritance</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The distribution of vacuoles into daughter cells after mitosis or meiosis, mediated by interactions between vacuoles and the cytoskeleton.</defstr>
+      <dbxref>
+        <acc>mcc</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>10873824</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>14616069</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+    </def>
+    <is_a>GO:0007033</is_a>
+    <is_a>GO:0048308</is_a>
+  </term>
+  <term>
+    <id>GO:0000012</id>
+    <name>single strand break repair</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The repair of single strand breaks in DNA. Repair of such breaks is mediated by the same enzyme systems as are used in base excision repair.</defstr>
+      <dbxref>
+        <acc>http://www.ultranet.com/~jkimball/BiologyPages/D/DNArepair.html</acc>
+        <dbname>URL</dbname>
+      </dbxref>
+    </def>
+    <is_a>GO:0006281</is_a>
+  </term>
+  <term>
+    <id>GO:0000014</id>
+    <name>single-stranded DNA endodeoxyribonuclease activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Catalysis of the hydrolysis of ester linkages within a single-stranded deoxyribonucleic acid molecule by creating internal breaks.</defstr>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="related">
+      <synonym_text>single-stranded DNA specific endodeoxyribonuclease activity</synonym_text>
+    </synonym>
+    <synonym scope="related">
+      <synonym_text>ssDNA-specific endodeoxyribonuclease activity</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <is_a>GO:0004520</is_a>
+  </term>
+  <term>
+    <id>GO:0000015</id>
+    <name>phosphopyruvate hydratase complex</name>
+    <namespace>cellular_component</namespace>
+    <def>
+      <defstr>A multimeric enzyme complex, usually a dimer or an octamer, that catalyzes the conversion of 2-phospho-D-glycerate to phosphoenolpyruvate and water.</defstr>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <subset>goslim_metagenomics</subset>
+    <synonym scope="exact">
+      <synonym_text>enolase complex</synonym_text>
+    </synonym>
+    <is_a>GO:0044445</is_a>
+    <is_a>GO:1902494</is_a>
+  </term>
+  <term>
+    <id>GO:0000016</id>
+    <name>lactase activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Catalysis of the reaction: lactose + H2O = D-glucose + D-galactose.</defstr>
+      <dbxref>
+        <acc>3.2.1.108</acc>
+        <dbname>EC</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="broad">
+      <synonym_text>lactase-phlorizin hydrolase activity</synonym_text>
+      <dbxref>
+        <acc>3.2.1.108</acc>
+        <dbname>EC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>lactose galactohydrolase activity</synonym_text>
+      <dbxref>
+        <acc>3.2.1.108</acc>
+        <dbname>EC</dbname>
+      </dbxref>
+    </synonym>
+    <xref_analog>
+      <acc>3.2.1.108</acc>
+      <dbname>EC</dbname>
+    </xref_analog>
+    <xref_analog>
+      <acc>LACTASE-RXN</acc>
+      <dbname>MetaCyc</dbname>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_100439</acc>
+      <dbname>Reactome</dbname>
+      <name>lactose + H2O =&gt; D-glucose + D-galactose, Gallus gallus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_104113</acc>
+      <dbname>Reactome</dbname>
+      <name>lactose + H2O =&gt; D-glucose + D-galactose, Rattus norvegicus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_105850</acc>
+      <dbname>Reactome</dbname>
+      <name>lactose + H2O =&gt; D-glucose + D-galactose, Bos taurus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_109208</acc>
+      <dbname>Reactome</dbname>
+      <name>lactose + H2O =&gt; D-glucose + D-galactose, Taeniopygia guttata</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_109391</acc>
+      <dbname>Reactome</dbname>
+      <name>lactose + H2O =&gt; D-glucose + D-galactose, Sus scrofa</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_109447</acc>
+      <dbname>Reactome</dbname>
+      <name>lactose + H2O =&gt; D-glucose + D-galactose, Danio rerio</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_112431</acc>
+      <dbname>Reactome</dbname>
+      <name>lactose + H2O =&gt; D-glucose + D-galactose, Caenorhabditis elegans</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_114967</acc>
+      <dbname>Reactome</dbname>
+      <name>lactose + H2O =&gt; D-glucose + D-galactose, Drosophila melanogaster</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_30821</acc>
+      <dbname>Reactome</dbname>
+      <name>lactose + H2O =&gt; D-glucose + D-galactose, Mus musculus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_78084</acc>
+      <dbname>Reactome</dbname>
+      <name>lactose + H2O =&gt; D-glucose + D-galactose, Canis familiaris</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_78754</acc>
+      <dbname>Reactome</dbname>
+      <name>lactose + H2O =&gt; D-glucose + D-galactose, Xenopus tropicalis</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_9455</acc>
+      <dbname>Reactome</dbname>
+      <name>lactose + H2O =&gt; D-glucose + D-galactose, Homo sapiens</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>10076</acc>
+      <dbname>RHEA</dbname>
+    </xref_analog>
+    <is_a>GO:0004553</is_a>
+  </term>
+  <term>
+    <id>GO:0000017</id>
+    <name>alpha-glucoside transport</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The directed movement of alpha-glucosides into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Alpha-glucosides are glycosides in which the sugar group is a glucose residue, and the anomeric carbon of the bond is in an alpha configuration.</defstr>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>http://www.biochem.purdue.edu/</acc>
+        <dbname>URL</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <is_a>GO:0042946</is_a>
+  </term>
+  <term>
+    <id>GO:0000018</id>
+    <name>regulation of DNA recombination</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>Any process that modulates the frequency, rate or extent of DNA recombination, a DNA metabolic process in which a new genotype is formed by reassortment of genes resulting in gene combinations different from those that were present in the parents.</defstr>
+      <dbxref>
+        <acc>go_curators</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <is_a>GO:0051052</is_a>
+    <relationship>
+      <type>regulates</type>
+      <to>GO:0006310</to>
+    </relationship>
+  </term>
+  <term>
+    <id>GO:0000019</id>
+    <name>regulation of mitotic recombination</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>Any process that modulates the frequency, rate or extent of DNA recombination during mitosis.</defstr>
+      <dbxref>
+        <acc>go_curators</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="narrow">
+      <synonym_text>regulation of recombination within rDNA repeats</synonym_text>
+    </synonym>
+    <is_a>GO:0000018</is_a>
+    <relationship>
+      <type>regulates</type>
+      <to>GO:0006312</to>
+    </relationship>
+  </term>
+  <term>
+    <id>GO:0000020</id>
+    <name>obsolete negative regulation of recombination within rDNA repeats</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of genetic recombination within the DNA of the genes coding for ribosomal RNA.</defstr>
+      <dbxref>
+        <acc>go_curators</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <comment>This term was made obsolete because it describes a substrate-specific process.</comment>
+    <synonym scope="exact">
+      <synonym_text>negative regulation of recombination within rDNA repeats</synonym_text>
+    </synonym>
+    <is_obsolete>1</is_obsolete>
+    <consider>GO:0045950</consider>
+  </term>
+  <term>
+    <id>GO:0000022</id>
+    <name>mitotic spindle elongation</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The cell cycle process in which the distance is lengthened between poles of the mitotic spindle. Mitotic spindle elongation begins during mitotic prophase and ends during mitotic anaphase B.</defstr>
+      <dbxref>
+        <acc>mtg_cell_cycle</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>vw</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>spindle elongation during mitosis</synonym_text>
+    </synonym>
+    <is_a>GO:0051231</is_a>
+    <is_a>GO:1903047</is_a>
+    <relationship>
+      <type>part_of</type>
+      <to>GO:0000070</to>
+    </relationship>
+    <relationship>
+      <type>part_of</type>
+      <to>GO:0007052</to>
+    </relationship>
+  </term>
+  <term>
+    <id>GO:0000023</id>
+    <name>maltose metabolic process</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The chemical reactions and pathways involving the disaccharide maltose (4-O-alpha-D-glucopyranosyl-D-glucopyranose), an intermediate in the catabolism of glycogen and starch.</defstr>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>malt sugar metabolic process</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>malt sugar metabolism</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>maltose metabolism</synonym_text>
+    </synonym>
+    <is_a>GO:0005984</is_a>
+  </term>
+  <term>
+    <id>GO:0000024</id>
+    <name>maltose biosynthetic process</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The chemical reactions and pathways resulting in the formation of the disaccharide maltose (4-O-alpha-D-glucopyranosyl-D-glucopyranose).</defstr>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>malt sugar biosynthesis</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>malt sugar biosynthetic process</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>maltose anabolism</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>maltose biosynthesis</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>maltose formation</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>maltose synthesis</synonym_text>
+    </synonym>
+    <is_a>GO:0000023</is_a>
+    <is_a>GO:0046351</is_a>
+  </term>
+  <term>
+    <id>GO:0000025</id>
+    <name>maltose catabolic process</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The chemical reactions and pathways resulting in the breakdown of the disaccharide maltose (4-O-alpha-D-glucopyranosyl-D-glucopyranose).</defstr>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>malt sugar catabolic process</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>malt sugar catabolism</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>maltose breakdown</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>maltose degradation</synonym_text>
+    </synonym>
+    <synonym scope="narrow">
+      <synonym_text>maltose hydrolysis</synonym_text>
+    </synonym>
+    <xref_analog>
+      <acc>MALTOSECAT-PWY</acc>
+      <dbname>MetaCyc</dbname>
+    </xref_analog>
+    <is_a>GO:0000023</is_a>
+    <is_a>GO:0046352</is_a>
+  </term>
+  <term>
+    <id>GO:0000026</id>
+    <name>alpha-1,2-mannosyltransferase activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Catalysis of the transfer of a mannose residue to an oligosaccharide, forming an alpha-(1-&gt;2) linkage.</defstr>
+      <dbxref>
+        <acc>mcc</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>10521541</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+    </def>
+    <xref_analog>
+      <acc>REACT_22123</acc>
+      <dbname>Reactome</dbname>
+      <name>Addition of the seventh mannose to the N-glycan precursor by ALG9, inside the ER lumen, Homo sapiens</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_22156</acc>
+      <dbname>Reactome</dbname>
+      <name>Addition of a fourth and fifth mannose to the N-glycan precursor by ALG11, Homo sapiens</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_22220</acc>
+      <dbname>Reactome</dbname>
+      <name>Addition of the fourth and fifth mannose to the N-glycan precursor skeleton by Alg11, Saccharomyces cerevisiae</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_22307</acc>
+      <dbname>Reactome</dbname>
+      <name>Addition of the last mannose to the N-glycan precursor by ALG3, inside the ER lumen., Homo sapiens</name>
+    </xref_analog>
+    <is_a>GO:0000030</is_a>
+  </term>
+  <term>
+    <id>GO:0000027</id>
+    <name>ribosomal large subunit assembly</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The aggregation, arrangement and bonding together of constituent RNAs and proteins to form the large ribosomal subunit.</defstr>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="narrow">
+      <synonym_text>50S ribosomal subunit assembly</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="narrow">
+      <synonym_text>60S ribosomal subunit assembly</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <is_a>GO:0022618</is_a>
+    <relationship>
+      <type>part_of</type>
+      <to>GO:0042255</to>
+    </relationship>
+    <relationship>
+      <type>part_of</type>
+      <to>GO:0042273</to>
+    </relationship>
+  </term>
+  <term>
+    <id>GO:0000028</id>
+    <name>ribosomal small subunit assembly</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The aggregation, arrangement and bonding together of constituent RNAs and proteins to form the small ribosomal subunit.</defstr>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+          </dbxref>
+    </def>
+    <synonym scope="narrow">
+      <synonym_text>30S ribosomal subunit assembly</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="narrow">
+      <synonym_text>40S ribosomal subunit assembly</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <is_a>GO:0022618</is_a>
+    <relationship>
+      <type>part_of</type>
+      <to>GO:0042255</to>
+    </relationship>
+    <relationship>
+      <type>part_of</type>
+      <to>GO:0042274</to>
+    </relationship>
+  </term>
+  <term>
+    <id>GO:0000030</id>
+    <name>mannosyltransferase activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Catalysis of the transfer of a mannosyl group to an acceptor molecule, typically another carbohydrate or a lipid.</defstr>
+      <dbxref>
+        <acc>ai</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>cjm</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <xref_analog>
+      <acc>REACT_1018</acc>
+      <dbname>Reactome</dbname>
+      <name>glucosaminyl-acyl-PI + dolichol phosphate D-mannose -&gt; mannose(al1-4)glucosaminyl-acyl-PI + dolichol phosphate, Homo sapiens</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_105204</acc>
+      <dbname>Reactome</dbname>
+      <name>glucosaminyl-acyl-PI + dolichol phosphate D-mannose -&gt; mannose(al1-4)glucosaminyl-acyl-PI + dolichol phosphate, Dictyostelium discoideum</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_2179</acc>
+      <dbname>Reactome</dbname>
+      <name>mannose (a1-2) mannose (a1-6) (ethanolamineP) mannose (a1-4) glucosaminyl-acyl-PI -&gt; mannose (a1) mannose (a1-2) mannose (a1-6) (ethanolamineP) mannose (a1-4) glucosaminyl-acyl-PI, Homo sapiens</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_22117</acc>
+      <dbname>Reactome</dbname>
+      <name>Addition of the eighth mannose to the N-glycan precursor by ALG12, inside the ER lumen, Homo sapiens</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_30252</acc>
+      <dbname>Reactome</dbname>
+      <name>glucosaminyl-acyl-PI + dolichol phosphate D-mannose -&gt; mannose(al1-4)glucosaminyl-acyl-PI + dolichol phosphate, Rattus norvegicus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_34702</acc>
+      <dbname>Reactome</dbname>
+      <name>glucosaminyl-acyl-PI + dolichol phosphate D-mannose -&gt; mannose(al1-4)glucosaminyl-acyl-PI + dolichol phosphate, Danio rerio</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_63412</acc>
+      <dbname>Reactome</dbname>
+      <name>glucosaminyl-acyl-PI + dolichol phosphate D-mannose -&gt; mannose(al1-4)glucosaminyl-acyl-PI + dolichol phosphate, Mus musculus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_87972</acc>
+      <dbname>Reactome</dbname>
+      <name>glucosaminyl-acyl-PI + dolichol phosphate D-mannose -&gt; mannose(al1-4)glucosaminyl-acyl-PI + dolichol phosphate, Canis familiaris</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_95740</acc>
+      <dbname>Reactome</dbname>
+      <name>glucosaminyl-acyl-PI + dolichol phosphate D-mannose -&gt; mannose(al1-4)glucosaminyl-acyl-PI + dolichol phosphate, Gallus gallus</name>
+    </xref_analog>
+    <is_a>GO:0016758</is_a>
+  </term>
+  <term>
+    <id>GO:0000031</id>
+    <name>mannosylphosphate transferase activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Catalysis of the transfer of a mannosylphosphate group from one compound to another.</defstr>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <is_a>GO:0016740</is_a>
+  </term>
+  <term>
+    <id>GO:0000032</id>
+    <name>cell wall mannoprotein biosynthetic process</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The chemical reactions and pathways resulting in the formation of cell wall mannoproteins, any cell wall protein that contains covalently bound mannose residues.</defstr>
+      <dbxref>
+        <acc>ai</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>cell wall mannoprotein anabolism</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>cell wall mannoprotein biosynthesis</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>cell wall mannoprotein formation</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>cell wall mannoprotein synthesis</synonym_text>
+    </synonym>
+    <is_a>GO:0006057</is_a>
+    <is_a>GO:0031506</is_a>
+  </term>
+  <term>
+    <id>GO:0000033</id>
+    <name>alpha-1,3-mannosyltransferase activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Catalysis of the transfer of a mannose residue to an oligosaccharide, forming an alpha-(1-&gt;3) linkage.</defstr>
+      <dbxref>
+        <acc>mcc</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>10521541</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+    </def>
+    <xref_analog>
+      <acc>REACT_22347</acc>
+      <dbname>Reactome</dbname>
+      <name>Addition of a second mannose to the N-glycan precursor by ALG2, Homo sapiens</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_22415</acc>
+      <dbname>Reactome</dbname>
+      <name>Addition of the sixth mannose to the N-glycan precursor by ALG3., Homo sapiens</name>
+    </xref_analog>
+    <is_a>GO:0000030</is_a>
+  </term>
+  <term>
+    <id>GO:0000034</id>
+    <name>adenine deaminase activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Catalysis of the reaction: adenine + H2O = hypoxanthine + NH3.</defstr>
+      <dbxref>
+        <acc>3.5.4.2</acc>
+        <dbname>EC</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>ADase activity</synonym_text>
+      <dbxref>
+        <acc>3.5.4.2</acc>
+        <dbname>EC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>adenase activity</synonym_text>
+      <dbxref>
+        <acc>3.5.4.2</acc>
+        <dbname>EC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>adenine aminase activity</synonym_text>
+      <dbxref>
+        <acc>3.5.4.2</acc>
+        <dbname>EC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>adenine aminohydrolase activity</synonym_text>
+      <dbxref>
+        <acc>3.5.4.2</acc>
+        <dbname>EC</dbname>
+      </dbxref>
+    </synonym>
+    <xref_analog>
+      <acc>3.5.4.2</acc>
+      <dbname>EC</dbname>
+    </xref_analog>
+    <xref_analog>
+      <acc>ADENINE-DEAMINASE-RXN</acc>
+      <dbname>MetaCyc</dbname>
+    </xref_analog>
+    <xref_analog>
+      <acc>23688</acc>
+      <dbname>RHEA</dbname>
+    </xref_analog>
+    <is_a>GO:0016814</is_a>
+    <is_a>GO:0019239</is_a>
+  </term>
+  <term>
+    <id>GO:0000035</id>
+    <name>acyl binding</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Interacting selectively and non-covalently with an acyl group, any group formally derived by removal of the hydroxyl group from the acid function of a carboxylic acid.</defstr>
+      <dbxref>
+        <acc>curators</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="broad">
+      <synonym_text>acyl-CoA or acyl binding</synonym_text>
+    </synonym>
+    <is_a>GO:0005488</is_a>
+  </term>
+  <term>
+    <id>GO:0000036</id>
+    <name>acyl carrier activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Binding an acyl group and presenting it for processing or offloading to a cognate enzyme. Covalently binds the acyl group via a phosphopantetheine prosthetic group and mediates protein-protein interactions with the enzyme conferring specificity. The acyl carrier protein (ACP) presents substrates to enzymes involved in fatty acid biosynthesis or in polyketide secondary metabolite biosynthesis.</defstr>
+      <dbxref>
+        <acc>22221</acc>
+        <dbname>CHEBI</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>vw</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <comment>Note that this term was moved from transporter to binding because we decided that ACP is not a true transporter, but instead tethers the growing entity that is acted on to make the fatty acid, so binding is the more correct parent. July 2012.</comment>
+    <synonym scope="exact">
+      <synonym_text>ACP phosphopantetheine attachment site binding involved in fatty acid biosynthetic process</synonym_text>
+    </synonym>
+    <is_a>GO:0044620</is_a>
+    <is_a>GO:0140104</is_a>
+  </term>
+  <term>
+    <id>GO:0000038</id>
+    <name>very long-chain fatty acid metabolic process</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The chemical reactions and pathways involving a fatty acid which has a chain length greater than C22.</defstr>
+      <dbxref>
+        <acc>27283</acc>
+        <dbname>CHEBI</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>hjd</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>very long chain fatty acid metabolic process</synonym_text>
+      <dbxref>
+        <acc>bf</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>very-long-chain fatty acid metabolic process</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>very-long-chain fatty acid metabolism</synonym_text>
+    </synonym>
+    <is_a>GO:0006631</is_a>
+  </term>
+  <term>
+    <id>GO:0000039</id>
+    <name>obsolete plasma membrane long-chain fatty acid transporter</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>OBSOLETE (was not defined before being made obsolete).</defstr>
+      <dbxref>
+        <acc>ai</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <comment>This term was made obsolete because it describes a gene product and it contains component information.</comment>
+    <synonym scope="exact">
+      <synonym_text>plasma membrane long-chain fatty acid transporter</synonym_text>
+    </synonym>
+    <is_obsolete>1</is_obsolete>
+    <consider>GO:0005324</consider>
+    <consider>GO:0005886</consider>
+  </term>
+  <term>
+    <id>GO:0000041</id>
+    <name>transition metal ion transport</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The directed movement of transition metal ions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. A transition metal is an element whose atom has an incomplete d-subshell of extranuclear electrons, or which gives rise to a cation or cations with an incomplete d-subshell. Transition metals often have more than one valency state. Biologically relevant transition metals include vanadium, manganese, iron, copper, cobalt, nickel, molybdenum and silver.</defstr>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>transition metal transport</synonym_text>
+    </synonym>
+    <is_a>GO:0030001</is_a>
+  </term>
+  <term>
+    <id>GO:0000044</id>
+    <name>obsolete ascorbate stabilization</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>OBSOLETE. The reduction of the ascorbate free radical to a stable form.</defstr>
+      <dbxref>
+        <acc>ai</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>mtg_electron_transport</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <comment>This term was made obsolete because it is defined as a function term and is in the process ontology.</comment>
+    <synonym scope="exact">
+      <synonym_text>ascorbate stabilization</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>vitamin C stabilization</synonym_text>
+    </synonym>
+    <is_obsolete>1</is_obsolete>
+  </term>
+  <term>
+    <id>GO:0000045</id>
+    <name>autophagosome assembly</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The formation of a double membrane-bounded structure, the autophagosome, that occurs when a specialized membrane sac, called the isolation membrane, starts to enclose a portion of the cytoplasm.</defstr>
+      <dbxref>
+        <acc>autophagy</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>9412464</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>autophagic vacuole assembly</synonym_text>
+      <dbxref>
+        <acc>autophagy</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="related">
+      <synonym_text>autophagic vacuole formation</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>autophagosome biosynthesis</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>autophagosome formation</synonym_text>
+    </synonym>
+    <synonym scope="narrow">
+      <synonym_text>PAS formation</synonym_text>
+    </synonym>
+    <is_a>GO:0070925</is_a>
+    <is_a>GO:1905037</is_a>
+  </term>
+  <term>
+    <id>GO:0000047</id>
+    <name>obsolete Rieske iron-sulfur protein</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>OBSOLETE (was not defined before being made obsolete).</defstr>
+      <dbxref>
+        <acc>ai</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <comment>This term was made obsolete because it represents a gene product.</comment>
+    <synonym scope="exact">
+      <synonym_text>Rieske iron-sulfur protein</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>Rieske iron-sulphur protein</synonym_text>
+    </synonym>
+    <is_obsolete>1</is_obsolete>
+    <consider>GO:0009055</consider>
+  </term>
+  <term>
+    <id>GO:0000048</id>
+    <name>peptidyltransferase activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Catalysis of the reaction: peptidyl-tRNA(1) + aminoacyl-tRNA(2) = tRNA(1) + peptidylaminoacyl-tRNA(2).</defstr>
+      <dbxref>
+        <acc>2.3.2.12</acc>
+        <dbname>EC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>11433365</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>9242921</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>peptidyl-tRNA:aminoacyl-tRNA N-peptidyltransferase activity</synonym_text>
+      <dbxref>
+        <acc>2.3.2.12</acc>
+        <dbname>EC</dbname>
+           </dbxref>
+    </synonym>
+    <xref_analog>
+      <acc>2.3.2.12</acc>
+      <dbname>EC</dbname>
+    </xref_analog>
+    <xref_analog>
+      <acc>PEPTIDYLTRANSFERASE-RXN</acc>
+      <dbname>MetaCyc</dbname>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_102632</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Saccharomyces cerevisiae</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_104123</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Schizosaccharomyces pombe</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_112282</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Gallus gallus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_115501</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Rattus norvegicus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_1227</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Homo sapiens</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_28090</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Arabidopsis thaliana</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_31656</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Taeniopygia guttata</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_33679</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Dictyostelium discoideum</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_77497</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Oryza sativa</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_81539</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Drosophila melanogaster</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_87719</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Mus musculus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_90185</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Danio rerio</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_90457</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Canis familiaris</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_91228</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Caenorhabditis elegans</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_95405</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Plasmodium falciparum</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_98179</acc>
+      <dbname>Reactome</dbname>
+      <name>Peptide transfer from P-site tRNA to the A-site tRNA, Xenopus tropicalis</name>
+    </xref_analog>
+    <is_a>GO:0016755</is_a>
+  </term>
+  <term>
+    <id>GO:0000049</id>
+    <name>tRNA binding</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Interacting selectively and non-covalently with transfer RNA.</defstr>
+      <dbxref>
+        <acc>ai</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <is_a>GO:0003723</is_a>
+  </term>
+  <term>
+    <id>GO:0000050</id>
+    <name>urea cycle</name>
+    <namespace>biological_process</namespace>
+    <alt_id>GO:0006594</alt_id>
+    <alt_id>GO:0006871</alt_id>
+    <def>
+      <defstr>The sequence of reactions by which arginine is synthesized from ornithine, then cleaved to yield urea and regenerate ornithine. The overall reaction equation is NH3 + CO2 + aspartate + 3 ATP + 2 H2O = urea + fumarate + 2 ADP + 2 phosphate + AMP + diphosphate.</defstr>
+      <dbxref>
+        <acc>pde</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>vw</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>ornithine cycle</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>urea biosynthesis</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>urea biosynthetic process</synonym_text>
+    </synonym>
+    <xref_analog>
+      <acc>REACT_100599</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Oryza sativa</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_107747</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Mus musculus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_109525</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Danio rerio</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_31787</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Taeniopygia guttata</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_32463</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Drosophila melanogaster</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_32971</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Caenorhabditis elegans</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_33119</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Bos taurus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_78616</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Plasmodium falciparum</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_80089</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Canis familiaris</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_81058</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Dictyostelium discoideum</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_82995</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Mycobacterium tuberculosis</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_83831</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Rattus norvegicus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_84694</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Saccharomyces cerevisiae</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_847</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Homo sapiens</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_88394</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Gallus gallus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_90218</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Escherichia coli</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_90565</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Sus scrofa</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_92378</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Xenopus tropicalis</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_95880</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Staphylococcus aureus N315</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_97366</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Arabidopsis thaliana</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_98985</acc>
+      <dbname>Reactome</dbname>
+      <name>Urea cycle, Schizosaccharomyces pombe</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>Urea_cycle</acc>
+      <dbname>Wikipedia</dbname>
+    </xref_analog>
+    <is_a>GO:0019627</is_a>
+    <is_a>GO:0043604</is_a>
+    <is_a>GO:1901566</is_a>
+  </term>
+  <term>
+    <id>GO:0000051</id>
+    <name>obsolete urea cycle intermediate metabolic process</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>OBSOLETE. The chemical reactions and pathways involving any of the intermediate compounds involved in the urea cycle, a cyclic metabolic pathway that converts waste nitrogen in the form of ammonium to urea.</defstr>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <comment>This term was made obsolete because it is a grouping term that is not useful, but has caused true path violations.</comment>
+    <synonym scope="exact">
+      <synonym_text>urea cycle intermediate metabolic process</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>urea cycle intermediate metabolism</synonym_text>
+    </synonym>
+    <is_obsolete>1</is_obsolete>
+  </term>
+  <term>
+    <id>GO:0000052</id>
+    <name>citrulline metabolic process</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The chemical reactions and pathways involving citrulline, N5-carbamoyl-L-ornithine, an alpha amino acid not found in proteins.</defstr>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>citrulline metabolism</synonym_text>
+    </synonym>
+    <is_a>GO:1901605</is_a>
+  </term>
+  <term>
+    <id>GO:0000053</id>
+    <name>argininosuccinate metabolic process</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The chemical reactions and pathways involving argininosuccinate, 2-(N(omega)-arginino)succinate, an intermediate in the ornithine-urea cycle, where it is synthesized from citrulline and aspartate.</defstr>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>argininosuccinate metabolism</synonym_text>
+    </synonym>
+    <is_a>GO:0006575</is_a>
+    <is_a>GO:0072350</is_a>
+    <is_a>GO:1901605</is_a>
+  </term>
+  <term>
+    <id>GO:0000054</id>
+    <name>ribosomal subunit export from nucleus</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The directed movement of a ribosomal subunit from the nucleus into the cytoplasm.</defstr>
+      <dbxref>
+        <acc>ai</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <subset>goslim_yeast</subset>
+    <synonym scope="exact">
+      <synonym_text>ribosomal subunit export from cell nucleus</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>ribosomal subunit export out of nucleus</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>ribosomal subunit transport from nucleus to cytoplasm</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>ribosomal subunit-nucleus export</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="related">
+      <synonym_text>ribosome export from nucleus</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>rb</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <is_a>GO:0033750</is_a>
+    <is_a>GO:0051656</is_a>
+    <is_a>GO:0071428</is_a>
+    <relationship>
+      <type>part_of</type>
+      <to>GO:0042254</to>
+    </relationship>
+  </term>
+  <term>
+    <id>GO:0000055</id>
+    <name>ribosomal large subunit export from nucleus</name>
+    <namespace>biological_process</namespace>
+    <alt_id>GO:0000057</alt_id>
+    <def>
+      <defstr>The directed movement of a ribosomal large subunit from the nucleus into the cytoplasm.</defstr>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="narrow">
+      <synonym_text>50S ribosomal subunit export from nucleus</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="narrow">
+      <synonym_text>60S ribosomal subunit export from nucleus</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>ribosomal large subunit export from cell nucleus</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>ribosomal large subunit export out of nucleus</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>ribosomal large subunit transport from nucleus to cytoplasm</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>ribosomal large subunit-nucleus export</synonym_text>
+    </synonym>
+    <is_a>GO:0000054</is_a>
+  </term>
+  <term>
+    <id>GO:0000056</id>
+    <name>ribosomal small subunit export from nucleus</name>
+    <namespace>biological_process</namespace>
+    <alt_id>GO:0000058</alt_id>
+    <def>
+      <defstr>The directed movement of a ribosomal small subunit from the nucleus into the cytoplasm.</defstr>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="narrow">
+      <synonym_text>30S ribosomal subunit export from nucleus</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="narrow">
+      <synonym_text>40S ribosomal subunit export from nucleus</synonym_text>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>ribosomal small subunit export from cell nucleus</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>ribosomal small subunit export out of nucleus</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>ribosomal small subunit transport from nucleus to cytoplasm</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>ribosomal small subunit-nucleus export</synonym_text>
+    </synonym>
+    <is_a>GO:0000054</is_a>
+  </term>
+  <term>
+    <id>GO:0000059</id>
+    <name>obsolete protein import into nucleus, docking</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>OBSOLETE. A protein complex assembly process that contributes to protein import into the nucleus, and that results in the association of a cargo protein, a carrier protein such as an importin alpha/beta heterodimer, and a nucleoporin located at the periphery of the nuclear pore complex.</defstr>
+      <dbxref>
+        <acc>isa_complete</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>14570049</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>7878057</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>9126736</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+    </def>
+    <comment>This term was made obsolete because the transient assembly is better captured as a protein-protein association, if at all.</comment>
+    <synonym scope="exact">
+      <synonym_text>protein docking during protein import into nucleus</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein docking during protein transport from cytoplasm to nucleus</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein docking during protein-nucleus import</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein transport from cytoplasm to nucleus, docking</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein-nucleus import, docking</synonym_text>
+    </synonym>
+    <is_obsolete>1</is_obsolete>
+  </term>
+  <term>
+    <id>GO:0000060</id>
+    <name>protein import into nucleus, translocation</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>A protein transport process that contributes to protein import into the nucleus, and that results in the vectorial transfer of a cargo-carrier protein complex through the nuclear pore complex from the cytoplasmic side to the nucleoplasmic side of the nuclear envelope.</defstr>
+      <dbxref>
+        <acc>curators</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>14570049</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>9126736</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+    </def>
+    <comment>Note that 'vectorial' is used in the definition in the mathematical and physical sense of pertaining to 'a quantity having direction as well as magnitude, especially as determining the position of one point in space relative to another. Note that 'translocation' is sometimes used in the literature to refer to the entire process of protein import into the nucleus, but in GO refers specifically to the step in which a cargo-carrier protein complex moves through the nuclear pore complex.</comment>
+    <synonym scope="exact">
+      <synonym_text>protein import into cell nucleus, translocation</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein translocation during protein import into nucleus</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein translocation during protein transport from cytoplasm to nucleus</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein translocation during protein-nucleus import</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein transport from cytoplasm to nucleus, translocation</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein-nucleus import, translocation</synonym_text>
+    </synonym>
+    <is_a>GO:0006886</is_a>
+    <relationship>
+      <type>part_of</type>
+      <to>GO:0006606</to>
+    </relationship>
+  </term>
+  <term>
+    <id>GO:0000061</id>
+    <name>protein import into nucleus, substrate release</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>A protein complex disassembly process that contributes to protein import into the nucleus, and that results in the dissociation of the cargo protein and the carrier (such as an importin alpha/beta heterodimer) from each other and from the nuclear pore complex.</defstr>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>14570049</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>9126736</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>9687515</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>protein import into cell nucleus, substrate release</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein substrate release during protein import into nucleus</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein substrate release during protein transport from cytoplasm to nucleus</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein substrate release during protein-nucleus import</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein transport from cytoplasm to nucleus, substrate release</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>protein-nucleus import, substrate release</synonym_text>
+    </synonym>
+    <is_a>GO:0043624</is_a>
+    <relationship>
+      <type>part_of</type>
+      <to>GO:0006606</to>
+    </relationship>
+  </term>
+  <term>
+    <id>GO:0000062</id>
+    <name>fatty-acyl-CoA binding</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Interacting selectively and non-covalently with acyl-CoA, any derivative of coenzyme A in which the sulfhydryl group is in thiolester linkage with a fatty acyl group.</defstr>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0198506732</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="broad">
+      <synonym_text>acyl-CoA or acyl binding</synonym_text>
+    </synonym>
+    <is_a>GO:0032559</is_a>
+    <is_a>GO:0033218</is_a>
+    <is_a>GO:0043168</is_a>
+    <is_a>GO:0050662</is_a>
+    <is_a>GO:1901567</is_a>
+    <is_a>GO:1901681</is_a>
+  </term>
+  <term>
+    <id>GO:0000064</id>
+    <name>L-ornithine transmembrane transporter activity</name>
+    <namespace>molecular_function</namespace>
+    <def>
+      <defstr>Enables the transfer of L-ornithine from one side of a membrane to the other. L-ornithine is 2,5-diaminopentanoic acid.</defstr>
+      <dbxref>
+        <acc>ai</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>mtg_transport</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>0815340729</acc>
+        <dbname>ISBN</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="related">
+      <synonym_text>histidine/arginine/lysine/ornithine porter activity</synonym_text>
+    </synonym>
+    <synonym scope="broad">
+      <synonym_text>L-ornithine transporter activity</synonym_text>
+    </synonym>
+    <xref_analog>
+      <acc>REACT_100602</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Mus musculus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_102399</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Xenopus tropicalis</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_103552</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Gallus gallus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_103610</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Canis familiaris</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_104169</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Sus scrofa</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_109285</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Caenorhabditis elegans</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_115531</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Gallus gallus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_151</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Homo sapiens</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_28177</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Drosophila melanogaster</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_30708</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Arabidopsis thaliana</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_78308</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Dictyostelium discoideum</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_84383</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Oryza sativa</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_88886</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Danio rerio</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_88959</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Rattus norvegicus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_90007</acc>
+      <dbname>Reactome</dbname>
+      <name>ornithine (cytosolic) + citrulline (mitochondrial) =&gt; ornithine (mitochondrial) + citrulline (cytosolic), Taeniopygia guttata</name>
+    </xref_analog>
+    <is_a>GO:0008324</is_a>
+    <is_a>GO:0015179</is_a>
+    <is_a>GO:0015238</is_a>
+  </term>
+  <term>
+    <id>GO:0000067</id>
+    <name>obsolete DNA replication and chromosome cycle</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>OBSOLETE (was not defined before being made obsolete).</defstr>
+      <dbxref>
+        <acc>ai</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <comment>This term was made obsolete because it has been superseded by more accurate terms to represent the biological processes occurring, and it is not clear that this term represents a useful entity.</comment>
+    <synonym scope="exact">
+      <synonym_text>DNA replication and chromosome cycle</synonym_text>
+    </synonym>
+    <is_obsolete>1</is_obsolete>
+    <consider>GO:0006260</consider>
+    <consider>GO:0007059</consider>
+    <consider>GO:0051276</consider>
+  </term>
+  <term>
+    <id>GO:0000070</id>
+    <name>mitotic sister chromatid segregation</name>
+    <namespace>biological_process</namespace>
+    <alt_id>GO:0016359</alt_id>
+    <def>
+      <defstr>The cell cycle process in which replicated homologous chromosomes are organized and then physically separated and apportioned to two sets during the mitotic cell cycle. Each replicated chromosome, composed of two sister chromatids, aligns at the cell equator, paired with its homologous partner. One homolog of each morphologic type goes into each of the resulting chromosome sets.</defstr>
+      <dbxref>
+        <acc>ai</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>jl</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <subset>goslim_pombe</subset>
+    <synonym scope="exact">
+      <synonym_text>mitotic chromosome segregation</synonym_text>
+    </synonym>
+    <synonym scope="narrow">
+      <synonym_text>mitotic sister-chromatid adhesion release</synonym_text>
+    </synonym>
+    <is_a>GO:0000819</is_a>
+    <is_a>GO:1903047</is_a>
+    <relationship>
+      <type>part_of</type>
+      <to>GO:0140014</to>
+    </relationship>
+  </term>
+  <term>
+    <id>GO:0000072</id>
+    <name>obsolete M phase specific microtubule process</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>OBSOLETE. A microtubule-based process that occurs only during M phase of the cell cycle.</defstr>
+      <dbxref>
+        <acc>mah</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <comment>This term was made obsolete because terms already exist for centrosome/spindle organization which would be more suitable for the existing annotations, and the phase could be captured as an annotation extension if necessary.</comment>
+    <synonym scope="exact">
+      <synonym_text>M phase specific microtubule process</synonym_text>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>M-phase specific microtubule process</synonym_text>
+    </synonym>
+    <is_obsolete>1</is_obsolete>
+    <consider>GO:0007017</consider>
+  </term>
+  <term>
+    <id>GO:0000073</id>
+    <name>mitotic spindle pole body separation</name>
+    <namespace>biological_process</namespace>
+    <alt_id>GO:0030475</alt_id>
+    <def>
+      <defstr>The release of duplicated mitotic spindle pole bodies (SPBs) that begins with the nucleation of microtubules from each SPB within the nucleus, leading to V-shaped spindle microtubules. Interpolar microtubules elongate from each pole forming overlapping microtubules. Capture and antiparallel sliding apart promotes initial SPB separation. Following liberation (severing of the half-bridge), SPBs diffuse through the nuclear membrane until they are opposite each other. SPB separation must take place in order for a bipolar mitotic spindle to assemble.</defstr>
+      <dbxref>
+        <acc>sgd_curators</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>vw</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <is_a>GO:0110100</is_a>
+    <relationship>
+      <type>part_of</type>
+      <to>GO:1905047</to>
+    </relationship>
+  </term>
+  <term>
+    <id>GO:0000075</id>
+    <name>cell cycle checkpoint</name>
+    <namespace>biological_process</namespace>
+    <alt_id>GO:0031576</alt_id>
+    <alt_id>GO:0071779</alt_id>
+    <def>
+      <defstr>A cell cycle process that controls cell cycle progression by monitoring the integrity of specific cell cycle events. A cell cycle checkpoint begins with detection of deficiencies or defects and ends with signal transduction.</defstr>
+      <dbxref>
+        <acc>mtg_cell_cycle</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <comment>This term should not be used in direct manual annotation as it should always be possible to minimally designate mitotic or meiotic checkpoint, and usually to additionally specify the checkpoint (i.e mitotic spindle assembly checkpoint, mitotic DNA damage checkpoint etc). Note also that the effector processes are not part of the checkpoint but are positively regulated by the checkpoint signaling and should not be annotated here.</comment>
+    <subset>gocheck_do_not_manually_annotate</subset>
+    <synonym scope="narrow">
+      <synonym_text>G1/S checkpoint</synonym_text>
+    </synonym>
+    <synonym scope="narrow">
+      <synonym_text>G1/S transition checkpoint</synonym_text>
+    </synonym>
+    <synonym scope="narrow">
+      <synonym_text>G2/M checkpoint</synonym_text>
+    </synonym>
+    <synonym scope="narrow">
+      <synonym_text>G2/M transition checkpoint</synonym_text>
+    </synonym>
+    <xref_analog>
+      <acc>REACT_100401</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Gallus gallus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_102145</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Saccharomyces cerevisiae</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_102175</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Canis familiaris</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_106487</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Rattus norvegicus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_109101</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Drosophila melanogaster</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_1538</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Homo sapiens</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_29957</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Bos taurus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_31789</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Dictyostelium discoideum</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_33305</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Oryza sativa</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_79078</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Sus scrofa</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_84460</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Arabidopsis thaliana</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_89660</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Xenopus tropicalis</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_90285</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Mus musculus</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_90465</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Caenorhabditis elegans</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_92239</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Danio rerio</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_96499</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Taeniopygia guttata</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>REACT_99737</acc>
+      <dbname>Reactome</dbname>
+      <name>Cell Cycle Checkpoints, Schizosaccharomyces pombe</name>
+    </xref_analog>
+    <xref_analog>
+      <acc>Cell_cycle_checkpoint</acc>
+      <dbname>Wikipedia</dbname>
+    </xref_analog>
+    <is_a>GO:0009987</is_a>
+    <is_a>GO:0045786</is_a>
+  </term>
+  <term>
+    <id>GO:0000076</id>
+    <name>DNA replication checkpoint</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>A cell cycle checkpoint that prevents the initiation of nuclear division until DNA replication is complete, thereby ensuring that progeny inherit a full complement of the genome.</defstr>
+      <dbxref>
+        <acc>curators</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>rn</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>11728327</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>12537518</acc>
+        <dbname>PMID</dbname>
+      </dbxref>
+    </def>
+    <is_a>GO:0031570</is_a>
+  </term>
+  <term>
+    <id>GO:0000077</id>
+    <name>DNA damage checkpoint</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>A cell cycle checkpoint that regulates progression through the cell cycle in response to DNA damage. A DNA damage checkpoint may blocks cell cycle progression (in G1, G2 or metaphase) or slow the rate at which S phase proceeds.</defstr>
+      <dbxref>
+        <acc>mtg_cell_cycle</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="narrow">
+      <synonym_text>DNA damage response, signal transduction resulting in cell cycle arrest</synonym_text>
+    </synonym>
+    <xref_analog>
+      <acc>DNA_damage_checkpoint</acc>
+      <dbname>Wikipedia</dbname>
+    </xref_analog>
+    <xref_analog>
+      <acc>Postreplication_checkpoint</acc>
+      <dbname>Wikipedia</dbname>
+    </xref_analog>
+    <is_a>GO:0006974</is_a>
+    <is_a>GO:0031570</is_a>
+  </term>
+  <term>
+    <id>GO:0000078</id>
+    <name>obsolete cytokinesis after mitosis checkpoint</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>OBSOLETE. A mitotic cell cycle checkpoint that detects whether chromosome segregation is complete and negatively regulates cytokinesis following mitosis.</defstr>
+      <dbxref>
+        <acc>mtg_cell_cycle</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <comment>The reason this term was made obsolete is that the two terms cytokinesis checkpoint (GO:0031565) and cytokinesis after mitosis (GO:0000078) were conflated in meaning.</comment>
+    <synonym scope="exact">
+      <synonym_text>cell morphogenesis checkpoint</synonym_text>
+      <dbxref>
+        <acc>dph</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>vw</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </synonym>
+    <synonym scope="exact">
+      <synonym_text>cell shape checkpoint</synonym_text>
+    </synonym>
+    <is_obsolete>1</is_obsolete>
+    <consider>GO:0044878</consider>
+    <consider>GO:0044879</consider>
+  </term>
+  <term>
+    <id>GO:0000079</id>
+    <name>regulation of cyclin-dependent protein serine/threonine kinase activity</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>Any process that modulates the frequency, rate or extent of cyclin-dependent protein serine/threonine kinase activity.</defstr>
+      <dbxref>
+        <acc>go_curators</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+      <dbxref>
+        <acc>pr</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <synonym scope="exact">
+      <synonym_text>regulation of CDK activity</synonym_text>
+    </synonym>
+    <synonym scope="broad">
+      <synonym_text>regulation of cyclin-dependent protein kinase activity</synonym_text>
+    </synonym>
+    <is_a>GO:0071900</is_a>
+    <is_a>GO:1904029</is_a>
+  </term>
+  <term>
+    <id>GO:0000080</id>
+    <name>mitotic G1 phase</name>
+    <namespace>biological_process</namespace>
+    <def>
+      <defstr>The cell cycle 'gap' phase which is the interval between the completion of DNA segregation by mitosis and the beginning of DNA synthesis.</defstr>
+      <dbxref>
+        <acc>mtg_cell_cycle</acc>
+        <dbname>GOC</dbname>
+      </dbxref>
+    </def>
+    <comment>Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).</comment>
+    <subset>gocheck_do_not_annotate</subset>
+
+
